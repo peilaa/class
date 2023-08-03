@@ -1,0 +1,52 @@
+.wrap {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    display: flex;
+    align-items: end;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 10px 30px;
+    background: #cfc3bd;
+    border-radius: 30px;
+}
+
+.week {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+span {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.back {
+    text-decoration: none;
+    color: rgb(130, 64, 64);
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 10px;
+    display: block;
+    width: 100px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.back:hover,
+.back:active {
+    color: white;
+    background: rgb(130, 64, 64);
+}

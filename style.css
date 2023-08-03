@@ -1,0 +1,102 @@
+* {
+    background: rgb(241, 239, 239);
+    box-sizing: border-box;
+}
+
+.wrap {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 10px 30px;
+    background: #cfc3bd;
+    border-radius: 30px;
+}
+
+.simple {
+    text-decoration: none;
+    color: rgb(130, 64, 64);
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 10px;
+    display: block;
+    width: 100px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.simple:hover,
+.simple:active {
+    color: white;
+    background: rgb(130, 64, 64);
+}
+
+table {
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: medium;
+    /* background: #ebeaea; */
+    border: 10px solid #ccb9aa;
+}
+
+td {
+    padding: 20px;
+    font-weight: 800;
+    border-radius: 20px;
+    /* background: #ebeaea; */
+}
+
+th {
+    padding: 15px;
+    font-weight: 500;
+    border-radius: 20px;
+    background: none;
+}
+
+.hex {
+    background: rgb(67, 213, 160);
+}
+
+.money {
+    background: #e7d4b5;
+}
+
+.topic {
+    background: #ccb9aa;
+}
+
+.digit {
+    background: #cea48d;
+}
+
+.camera {
+    background: #cfc3bd;
+}
+
+.design {
+    background: #d3bbb7;
+}
+
+@media screen and (max-width:505px) {
+    h1 {
+        margin: 10px auto;
+    }
+    table {
+        padding: 10px;
+    }
+    td {
+        padding: 8px;
+    }
+    th {
+        padding: 8px;
+    }
+}
